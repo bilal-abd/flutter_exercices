@@ -7,7 +7,15 @@ class Cardexo1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          "Exo1",
+          style: TextStyle(color: Colors.white),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.black,
+      ),
       body: Center(
         child: Card(
           child: ListTile(
